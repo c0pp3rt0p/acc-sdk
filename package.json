@@ -1,10 +1,12 @@
 {
-  "name": "acc-sdk",
-  "version": "1.0.0",
+  "name": "@amway-acc/acc-sdk",
+  "email": "any@email.com",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "test"
   },
   "scripts": {
     "test": "mocha '**/**spec.js'"
@@ -15,6 +17,7 @@
     "aws-sdk": "^2.494.0",
     "commander": "^2.20.0",
     "execa": "^2.0.3",
+    "grunt": "^1.0.4",
     "handlebars": "^4.1.2"
   },
   "devDependencies": {
@@ -22,5 +25,13 @@
     "chai-as-promised": "^7.1.1",
     "chai-files": "^1.4.0",
     "mocha": "^6.1.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c0pp3rt0p/acc-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/c0pp3rt0p/acc-sdk/issues"
+  },
+  "homepage": "https://github.com/c0pp3rt0p/acc-sdk#readme"
 }
