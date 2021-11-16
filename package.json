@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.494.0",
+    "aws-sdk": "^2.814.0",
     "commander": "^2.20.0",
     "execa": "^2.0.3",
     "grunt": "^1.0.4",
